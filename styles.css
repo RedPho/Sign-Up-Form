@@ -2,21 +2,38 @@
   background-image: url(media/jackson-graham-8O3jBhAdRv4-unsplash.jpg);
   margin: auto;
   height: 100vh;
-  background-size: 70vh;
+  background-size: 35vw;
   background-repeat: no-repeat;
-  width: 70vh;
+  width: 35vw;
   margin-left: 0;
 }
 
 #title {
   background-color: rgba(0, 0, 0, .3);
   color: aliceblue;
-  margin-top: 10vh;
+  margin-top: 30px;
 }
 
 #right-side {
   background-color: bisque;
   margin: 0;
   padding: 0;
-  flex-grow: 1;
+  width: 65vw;
+
+}
+
+form {
+  background-color: rgb(157, 227, 255);
+  border: 2px darkcyan solid;
+  box-shadow: 4px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h3 {
+  margin: 100px;
+}
+
+#credit {
+  margin-top: auto;
 }

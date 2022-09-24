@@ -1,18 +1,62 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="styles.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Sign Up</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body class="d-flex">
-    <div id="left-side" class="d-flex justify-content-center">
-      <h1 id="title" class="align-self-start">A Sign Up Demo</h1>
+    <div id="left-side" class="d-flex flex-column align-items-center">
+      <h1 id="title">A Sign Up Demo</h1>
+      <p id="credit">Photo by Jackson Graham on Unsplash</p>
     </div>
-    <div id="right-side" class="d-flex flex-column">
-      whaa
+    <div id="right-side" class="d-flex flex-column justify-content-center align-items-center">
+      
+      <h3>This is not a real online service! Come travel to Hogwarts and enjoy the magic!</h3>
+      
+      <form id="sign-up-form" class="d-flex flex-column gap-3" action="index.html" method="post">
+        <legend>Let's do this</legend>
+
+        <div id="first-row" class="d-flex flex-row gap-2">
+          <div class="d-flex flex-column">
+            <label class="form-label" for="first_name">First Name</label>
+            <input class="form-control" type="text" name="first_name" id="first_name">
+          </div>
+          <div class="d-flex flex-column">
+            <label class="form-label" for="last_name">Last Name</label>
+            <input class="form-control" type="text" name="last_name" id="last_name">
+          </div>
+        </div>
+
+        <div id="second-row" class="d-flex flex-row gap-2">
+          <div class="d-flex flex-column">
+            <label class="form-label" for="email">E-Mail</label>
+            <input class="form-control" type="email" name="email" id="email">
+          </div>
+          <div class="d-flex flex-column">
+            <label class="form-label" for="phone">Phone Number</label>
+            <input class="form-control" type="tel" name="phone" id="phone">
+          </div>
+        </div>
+
+        <div id="third-row" class="d-flex flex-row gap-2">
+          <div class="d-flex flex-column">
+            <label class="form-label" for="pass">Password</label>
+            <input class="form-control" type="password" name="password" id="password">
+          </div>
+          <div class="d-flex flex-column">
+            <label class="form-label" for="confirm">Confirm Password</label>
+            <input class="form-control" type="password" name="confirm" id="confirm">
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+        
+      </form>
+      
+      
+    
     </div>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
