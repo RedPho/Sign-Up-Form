@@ -1,0 +1,22 @@
+#left-side {
+  background-image: url(media/jackson-graham-8O3jBhAdRv4-unsplash.jpg);
+  margin: auto;
+  height: 100vh;
+  background-size: 70vh;
+  background-repeat: no-repeat;
+  width: 70vh;
+  margin-left: 0;
+}
+
+#title {
+  background-color: rgba(0, 0, 0, .3);
+  color: aliceblue;
+  margin-top: 10vh;
+}
+
+#right-side {
+  background-color: bisque;
+  margin: 0;
+  padding: 0;
+  flex-grow: 1;
+}
