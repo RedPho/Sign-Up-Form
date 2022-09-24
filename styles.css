@@ -8,10 +8,12 @@
   margin-left: 0;
 }
 
+@font-face { font-family: NorseBold; src: url('Norse-Bold.otf'); } 
 #title {
   background-color: rgba(0, 0, 0, .3);
   color: aliceblue;
   margin-top: 30px;
+  font-family: NorseBold;
 }
 
 #right-side {
@@ -23,8 +25,8 @@
 }
 
 form {
-  background-color: rgb(157, 227, 255);
-  border: 2px darkcyan solid;
+  background-color: rgb(199, 199, 199);
+  border: 2px rgb(163, 177, 177) solid;
   box-shadow: 4px;
   padding: 20px;
   border-radius: 10px;
@@ -36,4 +38,8 @@ h3 {
 
 #credit {
   margin-top: auto;
+}
+
+input:invalid {
+  border-color: red;
 }
